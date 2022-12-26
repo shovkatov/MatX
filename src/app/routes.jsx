@@ -5,13 +5,13 @@ import materialRoutes from 'app/views/material-kit/MaterialRoutes';
 import NotFound from 'app/views/sessions/NotFound';
 import sessionRoutes from 'app/views/sessions/SessionRoutes';
 import { Navigate } from 'react-router-dom';
-import MatxLayout from './components/MatxLayout/MatxLayout';
+import Breadboard from './components/MatxLayout/Breadboard';
 
 const routes = [
   {
     element: (
       <AuthGuard>
-        <MatxLayout />
+        <Breadboard />
       </AuthGuard>
     ),
     children: [...dashboardRoutes, ...chartsRoute, ...materialRoutes],

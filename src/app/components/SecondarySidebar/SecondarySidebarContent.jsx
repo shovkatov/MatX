@@ -1,7 +1,7 @@
 import { Icon, IconButton } from '@mui/material';
 import { styled, useTheme } from '@mui/system';
 import { Chatbox, ChatHead } from 'app/components';
-import MatxCustomizer from '../MatxCustomizer/MatxCustomizer';
+import Customizer from '../Customizer/Customizer';
 import ShoppingCart from '../ShoppingCart';
 import { Span } from '../Typography';
 
@@ -43,7 +43,7 @@ const SecondarySidebarContent = () => {
   return (
     <SidebarRoot width={'50px'} className="secondary-sidebar">
       <Span sx={{ m: 'auto' }}></Span>
-      <MatxCustomizer />
+      <Customizer />
       <ShoppingCart />
 
       <ChatHead

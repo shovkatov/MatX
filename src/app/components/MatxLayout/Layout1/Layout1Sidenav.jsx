@@ -22,7 +22,7 @@ const SidebarNavRoot = styled(Box)(({ theme, width, primaryBg, bgImgURL }) => ({
   overflow: 'hidden',
   color: theme.palette.text.primary,
   transition: 'all 250ms ease-in-out',
-  background: '#115293',
+  background: '#1A2038',
   '&:hover': {
     width: sideNavWidth,
     '& .sidenavHoverShow': {

@@ -155,7 +155,6 @@ export const AuthProvider = ({ children }) => {
                 method: 'JWT',
                 login,
                 logout,
-                register,
             }}
         >
             {children}

@@ -6,7 +6,7 @@ export { default as ConfirmationDialog } from './ConfirmationDialog';
 export { default as FacebookIcon } from './icons/FacebookIcon';
 export { default as GoogleIcon } from './icons/GoogleIcon';
 export { MatxLayouts } from './MatxLayout/index';
-export { default as MatxLayout } from './MatxLayout/MatxLayout';
+export { default as MatxLayout } from './MatxLayout/Breadboard';
 // export { default as MatxListItem1 } from './MatxListItem1';
 export { default as MatxLoading } from './MatxLoading';
 export { default as MatxLogo } from './MatxLogo';

@@ -86,7 +86,7 @@ const StyledScrollBar = styled(Scrollbar)(() => ({
   paddingRight: '16px',
 }));
 
-const MatxCustomizer = () => {
+const Customizer = () => {
   const theme = useTheme();
   const [open, setOpen] = useState(false);
   const [tabIndex, setTabIndex] = useState(0);
@@ -241,4 +241,4 @@ const demoLayouts = [
   },
 ];
 
-export default MatxCustomizer;
+export default Customizer;

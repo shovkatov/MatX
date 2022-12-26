@@ -2,7 +2,7 @@ import { MatxSuspense } from 'app/components';
 import useSettings from 'app/hooks/useSettings';
 import { MatxLayouts } from './index';
 
-const MatxLayout = (props) => {
+const Breadboard = (props) => {
   const { settings } = useSettings();
   const Layout = MatxLayouts[settings.activeLayout];
 
@@ -13,4 +13,4 @@ const MatxLayout = (props) => {
   );
 };
 
-export default MatxLayout;
+export default Breadboard;
